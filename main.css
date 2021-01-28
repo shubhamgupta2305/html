@@ -1,0 +1,111 @@
+html {
+    height: 100%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    height: 100vh;
+    background-image: url("beachshowcase.jpg");
+    background-size: 100% 110%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header .h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #926239;
+    padding: 0 0 8px 0;
+}
+
+header p {
+    margin: 0;
+    color: #926239;
+    font-size: 20px;
+    padding: 0 0 23px 0;
+}
+
+header a {
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #926239;
+    color: #926239;
+    padding: 14px 20px 14px 20px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+header a:hover {
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    color: #FFFFFF;
+    background-color: #926239;
+    padding: 14px 20px 14px 20px;
+    text-decoration: none;
+}
+
+
+
+#c1 {
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.5em;
+    padding: 20px;
+    background-color: #926239;
+}
+
+#c1 p {
+    margin: 0;
+    color: #FFFFFF;
+}
+
+#c2 {
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.6em;
+    padding: 20px;
+
+}
+
+#c2 p {
+    margin: 0;
+    color: #926239;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 33.33% auto 33.33%;
+}
+
+#g1 {
+    padding: 15px;
+    font-size: 17px;
+    line-height: 1.6em;
+    background-color: #926239;
+    color: #FFFFFF;
+}
+
+#g2 {
+    padding: 12px;
+    font-size: 17px;
+    line-height: 1.6em;
+    color: #926239;
+}
+
+#g3 {
+    padding: 15px;
+    font-size: 17px;
+    line-height: 1.6em;
+    background-color: #926239;
+    color: #FFFFFF;
+}
